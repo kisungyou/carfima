@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541101893769.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1374888747",
+    "id" : "5540FE09",
+    "lastKnownWriteTime" : 1541104239,
+    "last_content_update" : 1541104239125,
+    "path" : "~/Desktop/carfima/R/package-carfima.R",
+    "project_path" : "R/package-carfima.R",
+    "properties" : {
+        "cursorPosition" : "77,16",
+        "scrollLine" : "54",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

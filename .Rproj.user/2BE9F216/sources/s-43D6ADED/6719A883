@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541102640387.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6719A883",
+    "lastKnownWriteTime" : 1541102650,
+    "last_content_update" : 1541102650022,
+    "path" : "~/Desktop/carfima/R/carfima.sim.R",
+    "project_path" : "R/carfima.sim.R",
+    "properties" : {
+        "cursorPosition" : "28,37",
+        "scrollLine" : "15"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

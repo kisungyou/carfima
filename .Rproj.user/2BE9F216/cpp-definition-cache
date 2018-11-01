@@ -1,0 +1,464 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 26,
+                "name" : "g1_integration_real_eval(unsigned int, const double *, void *, unsigned int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_real_eval#i#*1d#*v#i#*d#"
+            },
+            {
+                "column" : 5,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 36,
+                "name" : "g1_integration_imag_eval(unsigned int, const double *, void *, unsigned int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_imag_eval#i#*1d#*v#i#*d#"
+            },
+            {
+                "column" : 5,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 47,
+                "name" : "g2_integration_real_eval(unsigned int, const double *, void *, unsigned int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_real_eval#i#*1d#*v#i#*d#"
+            },
+            {
+                "column" : 5,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 57,
+                "name" : "g2_integration_imag_eval(unsigned int, const double *, void *, unsigned int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_imag_eval#i#*1d#*v#i#*d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 70,
+                "name" : "g1_integration_real(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_real#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 82,
+                "name" : "g1_integration_imag(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_imag#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 94,
+                "name" : "g2_integration_real(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_real#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 106,
+                "name" : "g2_integration_imag(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_imag#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 119,
+                "name" : "g1_integration_realh(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_realh#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 130,
+                "name" : "g1_integration_imagh(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_integration_imagh#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 141,
+                "name" : "g2_integration_realh(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_realh#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 152,
+                "name" : "g2_integration_imagh(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_integration_imagh#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 168,
+                "name" : "g1(arma::vec, arma::cx_vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1#$@N@arma@C@Col>#d#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 201,
+                "name" : "g2(arma::vec, arma::cx_vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2#$@N@arma@C@Col>#d#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 253,
+                "name" : "B_mat(int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@B_mat#I#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 268,
+                "name" : "V_mat_sigma(int, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@V_mat_sigma#I#$@N@arma@C@Col>#d#d#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 290,
+                "name" : "V_mat(int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@V_mat#I#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 314,
+                "name" : "gamma_y_multiplication(double, arma::cx_vec, arma::cx_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@gamma_y_multiplication#d#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#$@N@arma@C@Mat>#S1_#"
+            },
+            {
+                "column" : 22,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 328,
+                "name" : "cx_quadratic(arma::cx_vec, arma::cx_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@cx_quadratic#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#$@N@arma@C@Mat>#S1_#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 337,
+                "name" : "Gamma_Y(arma::vec, int, arma::mat, double, arma::cx_vec, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@Gamma_Y#$@N@arma@C@Col>#d#I#$@N@arma@C@Mat>#d#d#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#S0_#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 396,
+                "name" : "Gamma_Y_sigma(arma::vec, int, arma::mat, double, arma::cx_vec, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@Gamma_Y_sigma#$@N@arma@C@Col>#d#I#$@N@arma@C@Mat>#d#d#$@N@arma@C@Col>#$@N@std@N@__1@C@complex>#d#S0_#d#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 460,
+                "name" : "infvec(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@infvec#I#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+                "kind" : 6,
+                "line" : 467,
+                "name" : "infmat(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@infmat#I#I#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/auxiliary.cpp",
+        "file_last_write" : 1536562494
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/auxiliary.h",
+        "file_last_write" : 1541102738
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+                "kind" : 6,
+                "line" : 14,
+                "name" : "my_dinvgamma(double, double, double, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_dinvgamma#d#d#d#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "my_log(double)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_log#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+                "kind" : 6,
+                "line" : 26,
+                "name" : "my_exp(double)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_exp#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+                "kind" : 6,
+                "line" : 29,
+                "name" : "my_sqrt(double)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_sqrt#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+                "kind" : 6,
+                "line" : 36,
+                "name" : "cpp_carfima_bayes(Function, arma::vec, arma::vec, arma::vec, arma::vec, int, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@cpp_carfima_bayes#$@N@Rcpp@C@Function_Impl>#@N@Rcpp@CT>1#T@PreserveStorage#$@N@arma@C@Col>#d#S1_#S1_#S1_#I#I#I#I#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp",
+        "file_last_write" : 1541038069
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_loglik.cpp",
+                "kind" : 6,
+                "line" : 16,
+                "name" : "twovecmultisum(arma::vec, arma::vec, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@twovecmultisum#$@N@arma@C@Col>#d#S0_#d#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_loglik.cpp",
+                "kind" : 6,
+                "line" : 26,
+                "name" : "cpp_carfima_loglik(arma::vec, arma::vec, int, int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@cpp_carfima_loglik#$@N@arma@C@Col>#d#S0_#I#I#S0_#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_loglik.cpp",
+        "file_last_write" : 1540788025
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_loglik_nosigma.cpp",
+                "kind" : 6,
+                "line" : 17,
+                "name" : "cpp_carfima_loglik_nosigma(arma::vec, arma::vec, int, int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@cpp_carfima_loglik_nosigma#$@N@arma@C@Col>#d#S0_#I#I#S0_#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/cpp_carfima_loglik_nosigma.cpp",
+        "file_last_write" : 1540787763
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/kisung/Desktop/carfima/src/init.c",
+                "kind" : 6,
+                "line" : 49,
+                "name" : "R_init_carfima(DllInfo *)",
+                "parent_name" : "",
+                "usr" : "c:@F@R_init_carfima#*$@S@_DllInfo#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/init.c",
+        "file_last_write" : 1541102915
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/loadcubature.h",
+        "file_last_write" : 1536561532
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "g1_reval(double, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_reval#d#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "g1_ieval(double, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@g1_ieval#d#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 31,
+                "name" : "g2_reval(double, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_reval#d#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 39,
+                "name" : "g2_ieval(double, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@g2_ieval#d#$@N@arma@C@Col>#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 49,
+                "name" : "adaptiveSimpsonsAux(double (*)(double, arma::vec), double, double, double, double, double, double, double, int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@adaptiveSimpsonsAux#*Fdd$@N@arma@C@Col>#d#d#d#d#d#d#d#d#I#S2_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 65,
+                "name" : "adaptiveSimpsons(double (*)(double, arma::vec), double, double, double, int, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@adaptiveSimpsons#*Fdd$@N@arma@C@Col>#d#d#d#d#I#S2_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 76,
+                "name" : "alt_g1real(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@alt_g1real#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 85,
+                "name" : "alt_g1imag(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@alt_g1imag#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 94,
+                "name" : "alt_g2real(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@alt_g2real#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+                "kind" : 6,
+                "line" : 103,
+                "name" : "alt_g2imag(double, double, double, std::complex<double>, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@alt_g2imag#d#d#d#$@N@std@N@__1@C@complex>#d#d#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.cpp",
+        "file_last_write" : 1536556787
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/my_simpsons.h",
+        "file_last_write" : 1541102817
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_truncnorm.cpp",
+                "kind" : 6,
+                "line" : 24,
+                "name" : "rtruncnorm(double, double, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@rtruncnorm#d#d#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/kisung/Desktop/carfima/src/my_truncnorm.cpp",
+                "kind" : 6,
+                "line" : 76,
+                "name" : "dtruncnorm(double, double, double, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@dtruncnorm#d#d#d#d#d#"
+            }
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/my_truncnorm.cpp",
+        "file_last_write" : 1536529383
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/kisung/Desktop/carfima/src/my_truncnorm.h",
+        "file_last_write" : 1541102829
+    }
+]

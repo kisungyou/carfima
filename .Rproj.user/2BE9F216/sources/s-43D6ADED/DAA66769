@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541102689793.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DAA66769",
+    "lastKnownWriteTime" : 1541102698,
+    "last_content_update" : 1541102698899,
+    "path" : "~/Desktop/carfima/R/noRD.carfima.loglik.nosigma.R",
+    "project_path" : "R/noRD.carfima.loglik.nosigma.R",
+    "properties" : {
+        "cursorPosition" : "7,33",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
