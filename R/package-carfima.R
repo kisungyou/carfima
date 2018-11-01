@@ -24,7 +24,7 @@
 #' \donttest{
 #' ##### Irregularly spaced observation time generation.
 #' 
-#' length.time <- 100
+#' length.time <- 10
 #' time.temp <- rexp(length.time, rate = 2)
 #' time <- rep(NA, length.time + 1)
 #' time[1] <- 0

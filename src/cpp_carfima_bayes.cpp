@@ -63,7 +63,6 @@ Rcpp::List cpp_carfima_bayes(Function loglik, arma::vec Y, arma::vec time,
   arma::vec param_temp, param_p_vec;
   
   for (int i=0;i<n_total;i++){
-    Rcpp::Rcout << "Iteration " << i << "/" << n_total << " started..." << std::endl;
     // Part 1. Iterate over 'p'
     for (int j=0;j<p;j++){
       param_p = rtruncnorm(param_t(j), param_scale(j), -0.99, -0.01);

@@ -21,8 +21,9 @@
 #' 
 #' @examples 
 #' ##### Irregularly spaced observation time generation.
+#' ##### For CRAN testing, time is set to be very short.
 #' 
-#' length.time <- 100
+#' length.time <- 10
 #' time.temp <- rexp(length.time, rate = 2)
 #' time <- rep(NA, length.time + 1)
 #' time[1] <- 0
