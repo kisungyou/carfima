@@ -44,7 +44,7 @@ A general-order CARFIMA(\eqn{p, H, q}) model for \eqn{p>q} is
 \deqn{Y_t^{(p)} -\alpha_p Y_t^{(p-1)} -\cdots- \alpha_1 Y_t = \sigma(B_{t, H}^{(1)}+\beta_1B_{t, H}^{(2)}+\cdots+\beta_q B_{t, H}^{(q+1)}),}
 where \eqn{B_{t, H} = B_t^H} is the standard fractional Brownian motion, \eqn{H} is the Hurst parameter, and the 
 superscript \eqn{(j)} indicates \eqn{j}-fold differentiation with respect to \eqn{t}; see Equation (1) of Tsai and Chan (2005) 
-for details. The model has \eqn{p+q+2} unknown model parameters; \eqn{p} \eqn{\alpha_j}'s, \eqn{q} \eqn{\beta_j}'s, \eqn{H}, and \eqn{\sigma}.
+for details. The model has \eqn{p+q+2} unknown model parameters; \eqn{p} \eqn{\alpha_j}'s, \eqn{q} \eqn{\beta_j}'s, \eqn{H}, and \eqn{\sigma}.\cr
 }
 \details{
 The function \code{carfima} fits the model, producing either their maximum likelihood estimates (MLEs) with their asymptotic uncertainties 
@@ -55,7 +55,7 @@ The corresponding asymptotic uncertainties are based on a numerical hessian matr
 in \pkg{numDeriv}). It also computes the Akaike Information Criterion (AIC) that is \eqn{-2}(log likelihood \eqn{-p-q-2}). 
 The function \code{carfima} becomes numerically unstable if \eqn{p>2}, and thus it may produce numerical errors. 
 (The original Fortran code used in Tsai and Chan (2005) does not have this numerical issue because they use a different global 
-optimizer called \code{DBCONF} from the IMSL Fortran library.)
+optimizer called \code{DBCONF} from the IMSL Fortran library.)\cr
 
 The Bayesian approach uses independent prior distributions for the unknown model parameters; a Uniform(-0.99, -0.01) 
 prior for each \eqn{\alpha_j}, a Normal(0, \eqn{10^4}) prior for each \eqn{\beta_j}, a Uniform(0.51, 0.99) prior for \eqn{H} 
@@ -71,13 +71,15 @@ if it is larger than 0.3 then it multiplies \eqn{\exp(\min(0.01, 1/\sqrt{i}))} b
 equipped with this adaptive MCMC converge to the stationary distribution because the adjustment factors, \eqn{\exp(\pm\min(0.01, 1/\sqrt{i}))},  
 approach unity as \eqn{i} goes to infinity, satisfying the diminishing adaptation condition. The function \code{carfima} becomes 
 numerically unstable if \eqn{p>2}, and thus it may produce numerical errors. The output returns the AIC for which we evaluate 
-the log likelihood at the posterior medians of the unknown model parameters.
+the log likelihood at the posterior medians of the unknown model parameters.\cr
 
 If the MLE-based method produces numerical errors, we recommend running the Bayesian method that is numerically more stable (though computationally more expensive).
-
-
-The function \code{carfiam} produces MLEs, their asymptotic uncertainties, and AIC if \code{method} is "mle". It produces the posterior samples of the model parameters, acceptance rates, and AIC if \code{method} is "bayes".
 }
+\section{Details}{
+
+The function \code{carfima} produces MLEs, their asymptotic uncertainties, and AIC if \code{method} is "mle". It produces the posterior samples of the model parameters, acceptance rates, and AIC if \code{method} is "bayes".
+}
+
 \examples{
 \donttest{
 ##### Irregularly spaced observation time generation.
@@ -107,7 +109,7 @@ res1 <- carfima(Y = y, time = time, method = "mle", ar.p = 1, ma.q = 0)
 
 res2 <- carfima(Y = y, time = time, method = "bayes", ar.p = 1, ma.q = 0, 
 bayes.param.ini = parameter, bayes.param.scale = c(rep(0.2, length(parameter))),
-bayes.n.warm = 100, bayes.n.sample = 13579)
+bayes.n.warm = 100, bayes.n.sample = 1000)
 }
 
 }
