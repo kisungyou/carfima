@@ -1,4 +1,5 @@
 /home/kisung/Desktop/carfima/DESCRIPTION="A6A9C79"
+/home/kisung/Desktop/carfima/NEWS.md="854F9C56"
 /home/kisung/Desktop/carfima/R/carfima.R="A3F3B95D"
 /home/kisung/Desktop/carfima/R/carfima.sim.R="CF27DFBA"
 /home/kisung/Desktop/carfima/R/noRD.carfima.bayes.R="503A1173"
@@ -7,4 +8,6 @@
 /home/kisung/Desktop/carfima/R/zzz.R="2006FC68"
 /home/kisung/Desktop/carfima/README.Rmd="CC009989"
 /home/kisung/Desktop/carfima/src/cpp_carfima_bayes.cpp="EBDA65C1"
+/home/kisung/Desktop/carfima/src/cpp_carfima_loglik.cpp="96C1F217"
+/home/kisung/Desktop/carfima/src/cpp_carfima_loglik_nosigma.cpp="31682303"
 /home/kisung/Desktop/carfima/src/init.c="E47CAAE2"
